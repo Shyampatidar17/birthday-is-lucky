@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:ital,wght@0,500;1,400&display=swap");
+
+:root {
+  --primary-color: #334155;
+  --primary-light: #22d3ee;
+}
+body {
+  background-color: var(--primary-color);
+  color: var(--primary-light);
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  width: 60%;
+  margin: auto;
+}
+label,
+input {
+  display: block;
+}
+input {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+#check-button {
+  display: block;
+  margin-top: 1rem;
+  margin: auto;
+  color: var(--primary-light);
+  border-color: var(--primary-light);
+  border-width: medium;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+}
